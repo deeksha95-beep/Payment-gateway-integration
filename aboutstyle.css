@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#DCDCDC ;
+}
+
+.content{
+    background-image:url("donate-drawing.jpg") ;
+ 
+    background-size:100% 100% ;
+    width: 100%;
+    height:60vh;
+    margin-top: 0px;
+z-index: 10;
+}
+.maincontainer{
+    display: grid;
+    position: relative;
+    padding-top: 30vh;
+    padding-left: 10%;
+   width:90%;
+   font-family: cursive;
+   padding-bottom: 10px;
+    grid-gap:10px;
+    grid-template-rows: 210px repeat(2, 210px) 300px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#list1 p{
+    padding: 5px;
+}
+
+
+
+ .box3, .box6 {
+    padding:5px;
+    
+}
+
+.box3{
+  /* background: linear-gradient(to bottom right,rgba(161, 224, 233,0.73),rgba(173, 200, 250,0.96),rgb(198, 192, 235),rgba(106, 159, 2280.2));*/
+  background: rgba(250, 239, 221, 0.89); 
+  grid-column: 1/4;
+   grid-row: 2/4;
+   border-radius: 2%;
+}
+.box3 h2{
+  padding: 15px;
+}
+.box3 p{
+    padding: 15px;
+}
+
+ 
+     
+ .box6{
+    background: rgba(250, 239, 221, 0.89); 
+    grid-column: 1/4;
+     border-radius: 2%;
+ }
